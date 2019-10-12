@@ -38,7 +38,7 @@ endif(NOT EXAMPLEDIR)
 
 # Where should we stick manpages?
 if(NOT MANDIR)
-	set(MANDIR "${CMAKE_INSTALL_PREFIX}/man/ctwm")
+	set(MANDIR ${CMAKE_INSTALL_PREFIX}/share/man/ctwm)
 endif(NOT MANDIR)
 
 # Since we only have 1 manpage, and it's in section 1, just list the man1
