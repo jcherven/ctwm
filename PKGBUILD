@@ -11,7 +11,7 @@ optdepends=()
 provides=()
 install=
 changelog=
-source=("~/Downloads/ctwm-4.0.3")
+source=("https://github.com/jcherven/ctwm.git")
 md5sums=()
 
 build() {
