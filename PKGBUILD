@@ -12,7 +12,7 @@ provides=()
 install=
 changelog=
 source=("https://github.com/jcherven/ctwm.git")
-md5sums=()
+md5sums=('cd80e20b6bc959758d0a0797e3dae628')
 
 build() {
 	cd "$pkgname-$pkgver"
